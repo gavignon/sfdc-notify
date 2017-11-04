@@ -50,7 +50,7 @@ module.exports = (config, logger) => {
 
         logger('Sending mail...');
         const msg = {
-          to: ['gavignon@salesforce.com'],
+          to: config.email,
           from: config.usernameCI +' <' + config.emailCI + '>',
           subject: data.subject,
           text: data.body,
