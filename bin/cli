@@ -4,12 +4,20 @@
 const program = require('commander');
 const orchestrator = require('../index.js');
 const pjson = require('../package.json');
-//TODO: Add and clean program options
 
 program
   .description(pjson.description)
   .version(pjson.version)
   .option('-c, --channel [channel]', 'channel of notification [slack/email]', 'slack')
+  .option('-f, --filepath [filepath]', 'path of the deploy result file', '')
+  .option('-e, --email [email]', 'email or list of email to send to')
+  .option('-uc, --usernameCI [usernameCI]', 'username that will post in slack', 'Salesforce CI')
+  .option('-ec, --emailCI [emailCI]', 'sender email')
+  .option('-u, --username [username]', 'email displayed user name', 'User')
+  .option('-k, --sendgridKey [sendgridKey]', 'sendgrid api key')
+  .option('-t, --templateId [templateId]', 'sendgrid template id')
+  .option('-d, --details [details]', 'true to display all code coverage in slack', false)
+  .option('-s, --slackWebhook [slackWebhook]', 'slack webhook URL')
   .parse(process.argv);
 
 orchestrator(program, console.log)
