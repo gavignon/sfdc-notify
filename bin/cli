@@ -1,0 +1,18 @@
+#!/usr/bin/env node
+'use strict';
+
+const program = require('commander');
+const orchestrator = require('../index.js');
+const pjson = require('../package.json');
+//TODO: Add and clean program options
+
+program
+  .description(pjson.description)
+  .version(pjson.version)
+  .option('-c, --channel [channel]', 'channel of notification [slack/email]', 'slack')
+  .parse(process.argv);
+
+orchestrator(program, console.log)
+.catch(function(err){
+  throw err;
+});

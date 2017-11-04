@@ -1,0 +1,27 @@
+{
+  "name": "sfdc-notify",
+  "version": "0.1.0",
+  "description": "Notify on every channel after a automated deployment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "sn": "./bin/cli"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gavignon/sfdc-notify.git"
+  },
+  "keywords": [
+    "salesforce",
+    "notification"
+  ],
+  "author": "Gil Avignon <gil.avignon@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^6.1.4",
+    "commander": "^2.11.0",
+    "slack-node": "^0.1.8"
+  }
+}
