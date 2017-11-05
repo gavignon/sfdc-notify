@@ -24,7 +24,18 @@ $ sn -h
 
   Options:
 
-    -c, --channel                notification channel
+  -V, --version                      output the version number
+  -c, --channel [channel]            channel of notification [slack/email]
+  -f, --filepath [filepath]          path of the deploy result file
+  -e, --email [email]                email or list of email to send to
+  -uc, --usernameCI [usernameCI]     username that will post in slack
+  -ec, --emailCI [emailCI]           sender email
+  -u, --username [username]          email displayed user name
+  -k, --sendgridKey [sendgridKey]    sendgrid api key
+  -t, --templateId [templateId]      sendgrid template id
+  -d, --details [details]            true to display all code coverage in slack
+  -s, --slackWebhook [slackWebhook]  slack webhook URL
+  -h, --help                         output usage information
 ```
 
 ### Module
@@ -33,7 +44,15 @@ $ sn -h
   var sn = require('sfdc-notify');
 
   sn({
-      'channel': 'email'
+      'channel': 'email',
+      'filepath': 'path/to/deployResult.json',
+      'email': ['email@user.com'],
+      'usernameCI': 'Continuous Integration User',
+      'emailCI': 'emailci@user.com',
+      'username': 'Firstname Lastname',
+      'sendgridKey': 'Sengrid Api Key',
+      'templateId': 'template id',
+      'details': false
       }, console.log);
 ```
 
