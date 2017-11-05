@@ -20,7 +20,7 @@ $ sn -h
 
   Usage: sn [options]
 
-  generate data dictionary from a Salesforce Org
+  notify people on every channel after a deployment
 
   Options:
 

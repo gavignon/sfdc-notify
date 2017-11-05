@@ -1,6 +1,6 @@
 {
   "name": "sfdc-notify",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Notify on every channel after a automated deployment",
   "main": "index.js",
   "scripts": {
