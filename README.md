@@ -1,4 +1,4 @@
-# sfdc-notify
+# ![logo](https://gdurl.com/n2nE) sfdc-notify
 Notify people on every channel after a deployment
 
 ## Getting Started
