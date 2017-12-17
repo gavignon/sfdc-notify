@@ -14,6 +14,7 @@ npm install -g sfdc-notify
 ## Screenshots
 
 - Email template:
+
 ![screenshot1](https://gdurl.com/c8TZ)
 
 ## Usage
