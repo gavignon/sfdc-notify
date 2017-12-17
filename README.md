@@ -1,5 +1,5 @@
 # ![logo](https://gdurl.com/n2nE) sfdc-notify
-Notify people on every channel after a deployment
+Notify people on a channel (email or slack) after a deployment. This tool use the deploy result json file.
 
 ## Getting Started
 
@@ -10,6 +10,11 @@ Works in Unix like system. Windows is not tested.
 ```
 npm install -g sfdc-notify
 ```
+
+## Screenshots
+
+- Email template:
+![screenshot1](https://gdurl.com/c8TZ)
 
 ## Usage
 

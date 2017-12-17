@@ -59,6 +59,7 @@ module.exports = (config, logger) => {
           substitutions: {
             environment: config.environment,
             username: config.username,
+            buildstatus: result.status,
           }
         };
         sgMail.send(msg, (error, result) => {
