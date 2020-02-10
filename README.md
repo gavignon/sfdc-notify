@@ -1,4 +1,4 @@
-# ![logo](https://gdurl.com/n2nE) sfdc-notify
+# ![logo](https://public.gavignon.io/images/sfdc-notify-logo.png) sfdc-notify
 Notify people on a channel (email or slack) after a deployment. This tool use the deploy result json file.
 
 ## Getting Started
@@ -15,7 +15,7 @@ npm install -g sfdc-notify
 
 - Email template:
 
-![screenshot1](https://gdurl.com/c8TZ)
+![screenshot1](https://public.gavignon.io/images/sfdc-notify-screenshot1.png)
 
 ## Usage
 
