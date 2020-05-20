@@ -17,9 +17,7 @@ npm install -g sfdc-notify
 
 - Email template:
 
-<p align="center">
   <img src="https://public.gavignon.io/images/sfdc-notify-screenshot1.png" width="75%">
-</p>
 
 ## Usage
 
