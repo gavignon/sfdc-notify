@@ -1,4 +1,6 @@
-# ![logo](https://public.gavignon.io/images/sfdc-notify-logo.png) sfdc-notify
+# <img src="https://public.gavignon.io/images/sfdc-notify-title.png" height="50">
+![version](https://img.shields.io/badge/version-0.2.0-blue)
+
 Notify people on a channel (email or slack) after a deployment. This tool use the deploy result json file.
 
 ## Getting Started
@@ -15,7 +17,9 @@ npm install -g sfdc-notify
 
 - Email template:
 
-![screenshot1](https://public.gavignon.io/images/sfdc-notify-screenshot1.png)
+<p align="center">
+  <img src="https://public.gavignon.io/images/sfdc-notify-screenshot1.png" width="75%">
+</p>
 
 ## Usage
 
