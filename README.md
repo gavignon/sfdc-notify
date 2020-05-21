@@ -1,4 +1,4 @@
-# <img src="https://public.gavignon.io/images/sfdc-notify-title.png" height="50">
+# <img src="https://public.gavignon.io/images/sfdc-notify-title.png" height="32">
 ![version](https://img.shields.io/badge/version-0.2.0-blue)
 
 Notify people on a channel (email or slack) after a deployment. This tool use the deploy result json file.
